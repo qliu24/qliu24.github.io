@@ -2551,6 +2551,26 @@ input, select, textarea {
 			cursor: default;
 		}
 
+		#top_btn{
+		  display: none;
+		  position: fixed;
+		  bottom: 20px;
+		  right: 20px;
+		  z-index: 99;
+		  font-size: 18px;
+		  border: none;
+		  outline: none;
+		  background-color: #e7e7e7;
+		  color: #ffffff;
+		  cursor: pointer;
+		  padding: 15px;
+		  border-radius: 4px;
+		}
+
+		#top_btn:hover {
+		  background-color: #5cc6a7;
+		}
+
 /* Work Item */
 
 	.work-item {
